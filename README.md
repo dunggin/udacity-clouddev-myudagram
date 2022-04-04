@@ -8,3 +8,11 @@ You'll need to create a new node server. Open a new terminal within the project 
 
 1. Initialize a new project: `npm i`
 2. Run the development server with:  `npm run dev`
+
+## API to filter image URL
+/filteredimage?image_url=
+
+## Deploy to Elastic Beanstalk
+http://dunggin-myudagram-dev-dev3.us-east-1.elasticbeanstalk.com
+
+Example image: http://dunggin-myudagram-dev-dev3.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://picsum.photos/id/200/300
